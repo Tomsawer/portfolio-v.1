@@ -1,15 +1,140 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tom'sfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Tom's-folio</title>
+
 </head>
 
-<body>
-
+<body class="grid vh-100">
+    <div class="container-fluid">
+        <div class="row-2">
+            <div class="row" style="height: 60;">
+                <nav class="navbar bg-light">
+                    <div class="container-fluid">
+                        <a class="navbar-brand"><img src="/icon/dice-5.svg" alt="chance" width="30"
+                                height="24">Tom's</a>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-dark" type="submit">Search</button>
+                        </form>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-1">
+                <div class="card" style="width: auto;">
+                    <div class="card-body">
+                        <h5 class="card-title text-center"><img src="/icon/person-circle.svg" alt="profil"></h5>
+                        <h6 class="card-subtitle mb-2 text-muted text-center">profil</h6>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's
+                            content.</p>
+                        <a href="#" class="card-link"><button type="button" class="btn btn-primary"
+                                style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                                Custom button
+                            </button></a>
+                    </div>
+                </div>
+                <div class="card" style="width: auto;">
+                    <div class="card-body">
+                        <h5 class="card-title text-center"><img src="/icon/file-earmark-person-fill.svg" alt="cv"></h5>
+                        <h6 class="card-subtitle mb-2 text-muted text-center">curriculum vitae</h6>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's
+                            content.</p>
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+                <div class="card" style="width: auto;">
+                    <div class="card-body">
+                        <h5 class="card-title"><img src="/icon/globe.svg" alt="contact"></h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Contact</h6>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's
+                            content.</p>
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col d-grid bg-dark ">
+                <div class="row row-2 bg-secondary">
+                    <div class="row text-light">
+                        <h3 class="text-center d-flex justify-content-center align-items-center">Tom's description</h3>
+                        <p class="m-auto text-center w-50">Lorem ipsum
+                            dolor, sit amet consectetur adipisicing elit. Suscipit
+                            consequatur
+                            consequuntur vero aliquam distinctio a harum voluptatem alias, repellat deleniti
+                            quia sunt eos ipsum earum odit inventore! Recusandae, quaerat fuga.</p>
+                    </div>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col" class="diapo">
+                        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active ">
+                                    <img src="https://cdn.pixabay.com/photo/2022/07/18/11/12/statue-7329573_960_720.jpg"
+                                        class="d-block rounded mx-auto " alt="...">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h3>Patience</h3>
+                                        <p>La patience mène à la réussite</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="https://cdn.pixabay.com/photo/2016/11/07/11/07/bonsai-1805501_960_720.jpg"
+                                        class="d-block rounded mx-auto " alt="...">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h3>La force</h3>
+                                        <p>La force puise son énergie dans les racines</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="https://cdn.pixabay.com/photo/2015/10/22/17/28/stack-of-books-1001655_960_720.jpg"
+                                        class="d-block rounded mx-auto " alt="...">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h3>La connaissance</h3>
+                                        <p>Une nourriture inépuisable</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <footer class="d-flex">
+        copyright
+    </footer>
 </body>
+
 
 </html>
